@@ -1428,7 +1428,7 @@ code span.ot { color: #007020; }
 <li><a href="#stima-regionale">Stima regionale</a></li>
 </ul></li>
 <li><a href="#secondo-metodo">Secondo metodo</a><ul>
-<li><a href="#stima-nazionale-in-base-alle-provincie">Stima nazionale in base alle provincie</a></li>
+<li><a href="#stima-nazionale-in-base-alle-province">Stima nazionale in base alle province</a></li>
 <li><a href="#stima-regionale-in-base-alle-province">Stima regionale in base alle province</a></li>
 </ul></li>
 <li><a href="#confronto-con-i-dati-istat-del-04052020">Confronto con i dati ISTAT del 04/05/2020</a></li>
@@ -1751,8 +1751,8 @@ Veneto
 </div>
 <div id="secondo-metodo" class="section level1">
 <h1>Secondo metodo</h1>
-<div id="stima-nazionale-in-base-alle-provincie" class="section level2">
-<h2>Stima nazionale in base alle provincie</h2>
+<div id="stima-nazionale-in-base-alle-province" class="section level2">
+<h2>Stima nazionale in base alle province</h2>
 <p>Successivamente si è pensato di stimare in maniera più corretta i decessi, tramite una logica che sfruttasse i dati geografici. Si è ipotizzato che comuni che si trovano nella stessa provincia, avessero un incremento di decessi simile tra di loro. Si è quindi utilizzato l’incremento di decessi per provincia, ottenuto dal dataset “comuni_giorno.csv”, contenente i 1689 comuni che presentavano le caratteristiche di cui si è parlato precedentemente, e lo si è applicato ai comuni i cui decessi andavano stimati, in base alla provincia di appartenenza di ognuno di essi.</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" title="1"><span class="co">#Ora cerchiamo di stimare i decessi applicando l&#39;incremento dei decessi rispetto a 15-19 a livello geografico (provinciale)</span></a>
 <a class="sourceLine" id="cb13-2" title="2"></a>
